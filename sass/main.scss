@@ -1,0 +1,773 @@
+@import "normolize";
+@import "swiper-bundle.min";
+@import "fonts";
+@import "setining";
+
+ 
+
+body {
+    background-color: #fff;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.wr-preview {
+    background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
+    height: 100vh;
+    position: relative;
+    p {
+        font-family: "Source-reg", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+        max-width: 570px;
+        margin-bottom: 46px;
+    }
+    .more {
+        width: 170px;
+        height: 48px;
+        color: #fff;
+        background-color: #FFC300;
+        border-radius: 24px;
+        &:hover {
+            background-color: #ffc400ad;
+        }
+    }
+}
+.wr-preview-img {
+    background-image: url(../media/prev/phones.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: auto;
+    height: calc(100vh + 40vh);
+    width: 100vw;
+}
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #5927a441;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 99999;
+    .logo {
+        color: #fff;
+        font-family: "Poppins-bold", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        position: relative;
+        left: 9%;
+        &:hover {
+            color: #333333;
+        }
+    }
+}
+.nav {
+    display: flex;
+    align-items: center;
+    li a {
+        font-family: "Source-reg", sans-serif;
+        font-size: 16px;
+        margin-left: 34px;
+        color: #fff;
+        &:hover {
+            color: #333333 ;
+        }
+    }
+}
+.input-search {
+    display: none;
+}
+
+.search-button  {
+    fill:#fff;
+    width: 24px;
+    height: 25px;
+    &:hover {
+        fill: #333333 ;
+    }
+}
+.title {
+    margin-left: 135px;
+    margin-top: 236px;
+}
+h1 {
+    font-family: "Poppins-bold", sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1;
+    max-width: 450px;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+
+// Sapiente delectus section
+
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+
+    h2 {
+        margin-top: 55px;
+        font-family: "Poppins-bold", sans-serif;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+    p {
+        font-family: "Source-bold", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 570px;
+        text-align: center;
+    }
+    
+}
+
+.sapiente-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}    
+            
+
+.sapiente-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-shadow:  16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+    margin-bottom: 32px;
+    max-width: 370px;
+    svg {
+                    
+        fill: rgb(200, 109, 215);
+        height: 50px;
+        width: 50px;
+    }
+
+    h3 {
+        font-family: "Poppins-bold", sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+    p {
+        font-family: "Source-reg", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333333;
+        opacity: 49.8%;
+        margin-top: 9px;
+    }
+}
+// Reiciendis voluptatibus
+
+.wr-reicien {
+    background-color: #FDF2FF;
+    margin-top: 112px;
+ 
+}
+.section-reicien {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 112px;
+    padding-bottom: 144px;
+}
+.reicien-img {
+    // box-shadow:-32px 32px 0px 0px hsl(293, 100%, 50%) ;
+    picture {
+        width: 570px;
+        height: 512px;
+        position: relative;
+        left: 30px;
+        bottom: 32px;        
+    }
+    &::before {
+        content: " ";
+        display: inline-block;
+        width: 570px;
+        height: 512px;
+        background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
+        position: absolute;
+        z-index: 0;
+        
+    }
+}
+.content-reicien {
+    margin-left: 100px;
+    h2 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1.5;
+    }
+}
+.reicien-1 {
+    font-family: "Source-bold", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 23px;
+}
+.reicien-2 {
+    font-family: "Source-reg", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    opacity: 50%;
+    margin-top: 6px;
+}
+
+.statistics {
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    .statistic {
+        margin-right: 118px;
+        max-height: 80px;
+    }
+    h5 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 40px;
+    }
+    p {
+        font-family: "Source-bold", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 6px;
+    }
+    
+}
+.feat {
+    margin-top: 40px;
+    width: 170px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #C86DD7;
+    font-family: "Source-bold", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    &:hover {
+        background-color: rgb(219, 217, 217);
+        color: #C86DD7;
+    }
+}
+
+
+//  Asperiores repellat
+
+.wr-asperio {
+    background-color: #fff;
+}
+.asperio {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.asperio-content {
+    margin-top: 100px;
+    margin-right: 100px;
+    h2 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1.5;
+        margin-top: 54px;
+    }
+    p {
+        margin-top: 28px;
+        font-family: "Source-bold", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 570px; 
+    }
+}
+.asperio-picture {
+    margin: 0;
+    width: 453px;
+    height: 786px;
+}
+.asperio-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    svg {
+        width: 50px;
+        height: 48px;
+        fill: #C86DD7;
+        margin-top: 32px;
+    }
+    h5 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 24px;
+        margin-top: 4px;
+    }
+    p {
+        font-family: "Source-reg", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333333;
+        opacity: 50%;
+        max-width: 270px;
+                    
+    }
+
+}
+        
+
+
+
+// Totam aperiam
+.wr-totam {
+    background-color: #FDF2FF;
+}
+    
+
+.title-totam {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        margin-top: 55px;
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1.5;
+    }
+    p {
+        margin-top: 23px;
+        margin-bottom: 48px;
+        font-family: "Source-bold", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 570px; 
+        text-align: center;
+    }
+}
+.totam-contents {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 103px;
+}
+
+.totam-content {
+    text-align: center;
+    padding: 53px 100px 48px 100px;
+    background-color: #fff;
+    box-shadow:  16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+    &:hover {
+        background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
+    }
+    &:hover h5 {
+        color: #fff;
+    }
+    &:hover p {
+        color: #fff;
+    }
+    &:hover li {
+        color: #fff;
+    }
+    &:hover button {
+        background-color: #FFC300;
+        color: #fff;
+    }
+    h5 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+        color: #333333;             
+    }
+    p {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 72px;
+        line-height: 1.5;
+        margin-top: 10px;
+        color: #333333;
+    }
+    ul {
+        margin-top: 26px;
+        li {
+            font-family: "Source-reg", sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333333;
+            opacity: 50%;
+            margin-top: 8px;
+
+        }
+    }
+    button {
+        color: #C86DD7;
+        width: 170px;
+        height: 48px;
+        border-radius: 24px;
+        border: 1px solid #C86DD7;
+        background-color: #fff;
+        margin-top: 42px;
+        &:hover {
+            background-color: #ffee01ab;
+        }
+    }
+}
+
+
+
+// Eaque ipsa
+// .wr-eaque {
+//     padding-bottom: 60px;
+// }
+.title-euque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    h2 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1.5;
+    }
+    p {
+        margin-top: 23px;
+        margin-bottom: 48px;
+        font-family: "Source-bold", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 570px; 
+        text-align: center;
+    }
+}
+.swiper-container {
+    padding-bottom: 50px;
+}
+    
+.swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    position: relative;
+    
+}
+.swiper-slide {
+    box-shadow:  16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:hover {
+        background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
+    }
+    picture {
+        width: 124px;
+        height: 124px;
+        border-radius: 50%;
+        object-fit: cover;  
+        position: relative;  
+        right: 35px;
+    }
+}
+.slide-content {
+    font-family: "Source-bold", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 50%;
+    max-width: 500px;
+    margin-top: 48px;
+    text-align: center;
+}
+.slide-name {
+    font-family: "Poppins-bold", sans-serif;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+// .swiper-button-next:after,
+// .swiper-button-prev:after {
+//     font-size: 16px;
+//     color: #C86DD7;
+//     border: 1px solid #C86DD7;
+//     border-radius: 50%;
+//     width: 48px;
+//     height: 48px;
+//     z-index: 9999;
+    
+// }
+.sl-nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.swiper-button-prev:after{
+    right:0;
+ }
+ .swiper-button-next:after{
+    left:0;
+ }
+.swiper-button-prev, .swiper-button-next {
+    color: #C86DD7;
+    border: 1px solid #C86DD7;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    margin:0;
+     &::after {
+        font-size: 16px;
+    }
+    &:hover {
+        background-color: #C86DD7;
+        color: #fff;
+    }
+}
+.swiper-button-prev {
+    left: 45.5%;
+    top: 410px;
+}
+.swiper-button-next {
+    right: 45.5%;
+    top: 410px;
+}
+
+// Veritatis
+.wr-varitatis {
+    background-color: #FDF2FF;
+}
+.title-varitatis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    h2 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1.5;
+    }
+    p {
+        font-family: "Source-bold", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 570px; 
+        opacity: 50%;
+    }
+    button {
+        color: #C86DD7;
+        width: 170px;
+        height: 48px;
+        border-radius: 24px;
+        border: 1px solid #C86DD7;
+        background-color: #FDF2FF;
+        &:hover {
+            background-color: #C86DD7;
+            color: #fff;
+        }
+    }
+}
+.contents-varitatis {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 112px;
+}
+.content-var {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    picture {
+        position: relative;
+        max-width: 570px;
+        max-height: 464px;
+    }
+    h5 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+        color: #fff;
+        position: absolute;
+        max-width: 228px;
+        margin-top: 325px;
+        margin-left: 32px;
+    }
+    p {
+        font-family: "Source-reg", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #fff;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 32px;
+    }
+}
+
+// Poris suscipit laboriosam
+.wr-poris {
+    padding-bottom: 112px;
+}
+.section-poris {
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.content-poris {
+    h2 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1;
+        max-width: 400px;
+    }
+    .text-poris1 {
+        font-family: "Source-bold", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 470px;
+        margin-top: 22px;
+    }
+    .text-poris2 {
+        font-family: "Source-reg", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        opacity: 50%;
+        max-width: 470px;
+        margin-top: 15px;
+    }
+    .text-poris3 {
+        font-family: "Source-bold", sans-serif;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+}
+.email {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    .text {
+        border: 2px solid #DADADA;
+        width: 270px;
+        height: 48px;
+        border-radius: 3px;
+        padding-left: 16px;
+        
+    }
+    [placeholder] {
+        font-family: "Source-reg", sans-serif;
+        color: #333333;
+        opacity: 50%;
+    }
+    button {
+        font-family: "Source-bold", sans-serif;
+        color: #FFFFFF;
+        width: 170px;
+        height: 48px;
+        border-radius: 24px;
+        border: 1px solid #C86DD7;
+        background-color: #C86DD7;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #C86DD7;
+        }
+    }
+}
+.img-poris {
+    
+    picture {
+        width: 570px;
+        height: 512px;
+        position: relative;
+        left: 30px;
+        bottom: 32px;       
+    }
+    &::before {
+        content: " ";
+        display: inline-block;
+        width: 570px;
+        height: 512px;
+        background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
+        position: absolute;
+        z-index: 0;
+    }
+}
+// Nisi aliq
+.wr-nisi {
+    background-color: #FDF2FF;
+    padding-bottom: 96px;
+    h2 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 56px;
+        line-height: 1;
+        padding-top: 55px;
+    }
+}
+.content-nisi {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 58px;
+}
+.nisi-item {
+    max-width: 370px;
+    background-color: #fff;
+    padding-bottom: 40px;
+    picture {
+        width: 370px;
+        height: 240px;
+    }
+    .date {
+        font-family: "Source-bold", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+    h5 {
+        font-family: "Poppins-bold", sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+        max-width: 252px;
+        margin-top: 13px;
+        margin-left: 32px;
+    }
+    .text-nisi {
+        font-family: "Source-reg", sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+        opacity: 50%;
+        margin-top: 25px;
+        margin-left: 32px;
+    }
+}
+
+
+
+
+        
+
+

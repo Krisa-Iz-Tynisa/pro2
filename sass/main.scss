@@ -270,8 +270,9 @@ h1 {
     font-size: 16px;
     color: #fff;
     &:hover {
-        background-color: rgb(219, 217, 217);
+        background-color: #FFFFFF;
         color: #C86DD7;
+        border: 1px solid #C86DD7;
     }
 }
 

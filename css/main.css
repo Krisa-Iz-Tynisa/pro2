@@ -1271,8 +1271,9 @@ h1 {
   color: #fff;
 }
 .feat:hover {
-  background-color: #dbd9d9;
+  background-color: #FFFFFF;
   color: #C86DD7;
+  border: 1px solid #C86DD7;
 }
 
 .wr-asperio {

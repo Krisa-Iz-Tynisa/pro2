@@ -1913,4 +1913,79 @@ h1 {
   border: 1px solid #C86DD7;
 }
 
+footer {
+  background-color: #FDF2FF;
+  padding-top: 62px;
+  padding-bottom: 42px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot h4 {
+  font-family: "Source-bold", sans-serif;
+  font-size: 16px;
+}
+.foot p {
+  font-family: "Source-reg", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 238px;
+  margin-top: 8px;
+  opacity: 50%;
+}
+.foot p a {
+  color: #333333;
+  opacity: 50%;
+}
+.foot p a:hover {
+  color: #333333;
+}
+
+.text-link {
+  font-family: "Source-reg", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 238px;
+  margin-top: 8px;
+}
+
+.link {
+  color: #333333;
+  opacity: 50%;
+}
+.link:hover {
+  color: #e70000;
+}
+
+.email-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.email-2 input {
+  border: 1px solid #DADADA;
+  width: 214px;
+  height: 48px;
+  border-radius: 3px;
+  padding-left: 16px;
+  margin-top: 13px;
+}
+.email-2 input:hover {
+  background-color: #DADADA;
+}
+.email-2 button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #C86DD7;
+  text-align: center;
+}
+.email-2 button svg {
+  fill: #FFFFFF;
+  top: 50%;
+  left: 50%;
+}
+
 /*# sourceMappingURL=main.css.map */

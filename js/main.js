@@ -11,8 +11,6 @@ new Swiper ('.swiper-container',{
 
     breakpoints: {
         767: {
-
-            freeMode: true,
             slidesPerView: 1,
             allowTouchMove: true,
             scrollbar: {
@@ -20,14 +18,11 @@ new Swiper ('.swiper-container',{
                 hide: true,
             },
         },
-        1024: { 
-            allowTouchMove: true,
-        },
         1260: {
-            allowTouchMove: true,
+            
             spaceBetween: 30,
             slidesPerView: 2,
-            slidesPerColumn: 2,
+            
         }
     }
 

@@ -6,8 +6,23 @@ new Swiper ('.swiper-container',{
     // slidesPerView: 2,
     spaceBetween: 30,
     loop: true,
+<<<<<<< HEAD
     breakpoints: {
         767: {
+=======
+    // breakpoints: {
+ 
+    //     780: {
+    //         slidesPerView: 1,
+    //     },
+    //     1200: {
+    //         slidesPerView:2,
+    //     }
+    // }
+    
+    breakpoints: {
+        620: {
+>>>>>>> 007415844e1b195f7bc69dabcbe239e98cc4fe7f
             freeMode: true,
             slidesPerView: 1,
             allowTouchMove: true,
@@ -23,9 +38,15 @@ new Swiper ('.swiper-container',{
             allowTouchMove: true,
             spaceBetween: 30,
             slidesPerView: 2,
+<<<<<<< HEAD
             
         }
     }
+=======
+        }
+    }
+
+>>>>>>> 007415844e1b195f7bc69dabcbe239e98cc4fe7f
 
 
 });

@@ -1322,12 +1322,15 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 20px;
+}
+.asperio-icons .asperio-icon {
+  padding-top: 32px;
 }
 .asperio-icons svg {
   width: 50px;
   height: 48px;
   fill: #C86DD7;
-  margin-top: 32px;
 }
 .asperio-icons h5 {
   font-family: "Poppins-bold", sans-serif;
@@ -1356,7 +1359,6 @@ h1 {
 }
 .title-totam p {
   margin-top: 23px;
-  margin-bottom: 48px;
   font-family: "Source-bold", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -1368,6 +1370,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 48px;
 }
 
 .totam-content {
@@ -1569,39 +1572,53 @@ h1 {
 }
 
 .contents-varitatis {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-top: 65px;
+}
+
+.var-1 {
+  width: 570px;
+  height: 464px;
+  background-image: url(../media/veritatis/rose.png);
+  background-size: cover;
+}
+
+.var-2 {
+  width: 270px;
+  height: 464px;
+  background-image: url(../media/veritatis/fl.png);
+  background-size: cover;
+}
+
+.var-3 {
+  width: 270px;
+  height: 464px;
+  background-image: url(../media/veritatis/pan.png);
+  background-size: cover;
 }
 
 .content-var {
-  margin-top: 65px;
   display: flex;
-  justify-content: space-between;
-}
-.content-var picture {
-  position: relative;
-  max-width: 570px;
-  max-height: 464px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 325px;
+  padding-left: 32px;
 }
 .content-var h5 {
   font-family: "Poppins-bold", sans-serif;
   font-size: 24px;
   line-height: 1.5;
   color: #fff;
-  position: absolute;
   max-width: 228px;
-  margin-top: 325px;
-  margin-left: 32px;
 }
 .content-var p {
   font-family: "Source-reg", sans-serif;
   font-size: 12px;
   line-height: 1.5;
   color: #fff;
-  position: absolute;
-  margin-top: 400px;
-  margin-left: 32px;
+  margin-top: 10px;
 }
 
 .wr-poris {

@@ -15,6 +15,7 @@ new Swiper ('.swiper-container',{
     //         slidesPerView:2,
     //     }
     // }
+    
     breakpoints: {
         620: {
             freeMode: true,

@@ -433,7 +433,6 @@ h1 {
     align-items: center;
     p {
         margin-top: 23px;
-        margin-bottom: 48px;
         font-family: "Source-bold", sans-serif;
         font-size: 16px;
         line-height: 1.5;
@@ -444,8 +443,9 @@ h1 {
 .swiper-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
     position: relative;
+    margin-top: 48px;
     
 }
 .swiper-slide {
@@ -453,6 +453,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+
     &:hover {
         background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
     }
@@ -525,11 +527,11 @@ h1 {
 }
 .swiper-button-prev {
     left: 45.5%;
-    top: 410px;
+    top: 468px;
 }
 .swiper-button-next {
     right: 45.5%;
-    top: 410px;
+    top: 468px;
 }
 
 // Veritatis
@@ -655,6 +657,9 @@ h1 {
         height: 48px;
         border-radius: 3px;
         padding-left: 16px;
+        &:hover {
+            background-color: #DADADA;
+        }
         
     }
     [placeholder] {
@@ -978,7 +983,7 @@ footer {
         &:hover::after {
             border-left: 3px solid #C86DD7;
             border-bottom: 3px solid #C86DD7;
-            
+
         }
         &::after {
             position: absolute;

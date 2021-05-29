@@ -1444,7 +1444,6 @@ h1 {
 }
 .title-euque p {
   margin-top: 23px;
-  margin-bottom: 48px;
   font-family: "Source-bold", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -1455,8 +1454,9 @@ h1 {
 .swiper-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 100px;
+  padding-bottom: 110px;
   position: relative;
+  margin-top: 48px;
 }
 
 .swiper-slide {
@@ -1532,12 +1532,12 @@ h1 {
 
 .swiper-button-prev {
   left: 45.5%;
-  top: 410px;
+  top: 468px;
 }
 
 .swiper-button-next {
   right: 45.5%;
-  top: 410px;
+  top: 468px;
 }
 
 .wr-varitatis {
@@ -1669,6 +1669,9 @@ h1 {
   height: 48px;
   border-radius: 3px;
   padding-left: 16px;
+}
+.email .text:hover {
+  background-color: #DADADA;
 }
 .email [placeholder] {
   font-family: "Source-reg", sans-serif;

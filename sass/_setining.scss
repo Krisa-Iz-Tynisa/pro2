@@ -23,8 +23,13 @@ h1,h2,h3,h4,h5,h5,h6{font-size: inherit;font-weight: 400;}
 body {
     font-family: "Source-reg";
     font-size: 16px;
-    color: #333333;
-    line-height: 24px;
+    color: #333;
+    line-height: 1.5;
+}
+h2 {
+    font-family: "Poppins-bold", sans-serif;
+    font-size: 56px;
+    line-height: 1.4;
 }
 li {
     list-style: none;

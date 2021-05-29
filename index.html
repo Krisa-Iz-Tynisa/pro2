@@ -357,8 +357,10 @@
           <p class="text-poris2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
             id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
           <div class="email">
-            <input class="text" type="email" name="email" placeholder="Your email">
-            <button>Contact us</button>
+            <form action="#" method="post">
+              <input class="text" type="email" name="email" placeholder="Your email">
+              <button>Contact us</button>
+            </form>
           </div>
           <p class="text-poris3">Quis nostrum exercitationem</p>
         </div>
@@ -447,14 +449,16 @@
           </div>
         </div>
         <div class="col-2">
-          <h4>Alias consequatur</h4>
-          <label for="name">Your name</label>
-          <input class="text" type="text" name="name" placeholder="Name">
-          <label for="email">Your email</label>
-          <input class="text" type="email" name="email" placeholder="Email">
-          <label for="text">Your message</label>
-          <textarea class="textarea" name="message" placeholder="Message"></textarea>
-          <button>Send</button>
+          <form action="#" method="post">
+            <h4>Alias consequatur</h4>
+            <label for="name">Your name</label>
+            <input class="text" type="text" name="name" placeholder="Name">
+            <label for="email">Your email</label>
+            <input class="text" type="email" name="email" placeholder="Email">
+            <label for="text">Your message</label>
+            <textarea class="textarea" name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+          </form>
         </div>
       </div>
     </div>
@@ -480,18 +484,20 @@
       </div>
       <div class="foot">
         <h4>Omnis</h4>
-        <div class="email-2">
-          <input class="text" type="email" name="email" placeholder="Your email">
-          <button>
-            <svg>
-              <path viewBox="0 0 10 16"
-                d="M1.88667 0L0 1.886L6.226 8.00267L0 14.114L1.88667 16L10 8.00267L1.88667 0Z" />
-            </svg>
-          </button>
-        </div>
+        
+          <form class="email-2" action="#" method="post">
+            <input class="text" type="email" name="email" placeholder="Your email">
+            <button>
+              <!-- <svg>
+                <path viewBox="0 0 10 16"
+                  d="M1.88667 0L0 1.886L6.226 8.00267L0 14.114L1.88667 16L10 8.00267L1.88667 0Z" />
+              </svg> -->
+            </button>
+          </form>
+        
       </div>
     </div>
-    <p>Copyright 2019. All Rights Reserved.</p>
+    <p class="copyright">Copyright 2019. All Rights Reserved.</p>
   </footer>
 
 

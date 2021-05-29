@@ -950,7 +950,8 @@ footer {
 .email-2 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    margin-top: 4px;
     input {
         border: 1px solid #DADADA;
         width: 214px;
@@ -958,6 +959,7 @@ footer {
         border-radius: 3px;
         padding-left: 16px;
         margin-top: 13px;
+        
         &:hover {
             background-color: #DADADA;
         }
@@ -965,16 +967,44 @@ footer {
     button {
         width: 48px;
         height: 48px;
+        position: relative;
         border-radius: 50%;
         background-color: #C86DD7;
-        text-align: center;
-        svg {
-            fill: #FFFFFF;
-            top: 50%;
-            left: 50%;
-            
+        margin-left: 8px;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #C86DD7;
+            border: 1px solid #C86DD7;
         }
+        &:hover::after {
+            border-left: 3px solid #C86DD7;
+            border-bottom: 3px solid #C86DD7;
+        }
+        &::after {
+            position: absolute;
+            top: 17px;;
+            left: 16px;
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-left: 3px solid #fff;
+            border-bottom: 3px solid #fff;
+            transform: rotate(224deg);
+        }
+        
     }
+}
+.copyright {
+    font-family: "Source-reg", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 58px;
+    color: #333333;
+    opacity: 50%;
+    text-align: center;
+    border-top: 1px solid #33333375;
+    padding-top: 29px;
 }
 
 

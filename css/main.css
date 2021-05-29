@@ -994,6 +994,11 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 h2 {
   font-family: "Poppins-bold", sans-serif;
   font-size: 56px;
@@ -1015,11 +1020,6 @@ button {
 
 body {
   background-color: #fff;
-}
-
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
 }
 
 .wr-preview {
@@ -1085,6 +1085,7 @@ body {
 .nav {
   display: flex;
   align-items: center;
+  margin-left: 150px;
 }
 .nav a {
   font-family: "Source-reg", sans-serif;
@@ -1137,7 +1138,6 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 32px;
 }
 .section-title h2 {
   margin-bottom: 24px;
@@ -1170,7 +1170,7 @@ h1 {
   padding-left: 24px;
   padding-right: 24px;
   box-shadow: 16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
-  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .sapiente-item svg {
   fill: #c86dd7;

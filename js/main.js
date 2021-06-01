@@ -27,3 +27,53 @@ new Swiper ('.swiper-container',{
     }
 
 });
+
+
+
+// let burger = document.querySelector('.burger-btn');
+// let menu = document.querySelector('.menu-list')
+
+// burger.addEventListener('click', function(){
+//     let menu = document.querySelector('.wr-preview');
+//     let btn = document.querySelector('.burger-btn');
+//     let body = document.querySelector('body');
+
+//     menu.classList.toggle('active');
+//     btn.classList.toggle('active');
+//     body.classList.toggle('lock');
+// })
+
+
+
+// burger.addEventListener('click', function () {
+//     let modalWr = document.querySelector('.modal-wrapper')
+
+//     console.log('click')
+
+
+//     menu.classList.toggle('active')
+// })
+// // let menuList = document.querySelector('.menu-list')
+// // let listArr = menuList.children
+
+// // for (let i = 0; i < listArr.length; i++) {
+// //     listArr[i].addEventListener('click', function () {
+// //         let menu = document.querySelector('.wr-preview');
+// //         let body = document.querySelector('body');
+// //         body.classList.remove('lock');
+// //         menu.classList.remove('active')
+// //     })
+// // }
+let burger = document.querySelector('.burger-btn');
+let menu = document.querySelector('.nav')
+
+
+
+burger.addEventListener('click', function () {
+    let modalWr = document.querySelector('.modal-wrapper')
+
+    console.log('click')
+
+
+    menu.classList.toggle('active')
+})

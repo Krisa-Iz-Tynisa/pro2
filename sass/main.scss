@@ -3,7 +3,7 @@
 @import "fonts";
 @import "setining";
 
- 
+
 
 body {
     background-color: #fff;
@@ -35,7 +35,6 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    height: 120vh;
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: auto;
@@ -132,7 +131,7 @@ h1 {
         max-width: 570px;
         text-align: center;
     }
-    
+
 }
 
 .sapiente-items {
@@ -140,7 +139,7 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-}    
+}
 .sapiente-item {
     display: flex;
     flex-direction: column;
@@ -155,7 +154,7 @@ h1 {
     box-shadow:  16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
     margin-top: 32px;
     svg {
-                    
+
         fill: rgb(200, 109, 215);
         height: 50px;
         width: 50px;
@@ -194,11 +193,11 @@ h1 {
     height: 512px;
     position: relative;
     left: 60px;
-      
+
     picture {
         width: 100%;
-        height: 100%;  
-        position: relative      
+        height: 100%;
+        position: relative
     }
     &::before {
         content: " ";
@@ -206,11 +205,11 @@ h1 {
         width: 570px;
         height: 512px;
         right: 30px;
-        top: 32px; 
+        top: 32px;
         background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
         position: absolute;
         z-index: 0;
-        
+
     }
 }
 .content-reicien {
@@ -250,7 +249,7 @@ h1 {
         line-height: 1.5;
         margin-top: 6px;
     }
-    
+
 }
 .feat {
     margin-top: 40px;
@@ -274,7 +273,7 @@ h1 {
 .wr-asperio {
     background-color: #fff;
     padding-top: 103px;
-    
+
 }
 .asperio-content {
     max-width: 600px;
@@ -284,7 +283,7 @@ h1 {
         font-family: "Source-bold", sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        max-width: 572px; 
+        max-width: 572px;
     }
 }
 .asperio-picture {
@@ -293,7 +292,7 @@ h1 {
     position: relative;
     left: 780px;
     bottom: 80px;
-    
+
 }
 .asperio-icons {
     display: flex;
@@ -320,11 +319,11 @@ h1 {
         color: #333333;
         opacity: 50%;
         max-width: 270px;
-                    
+
     }
 
 }
-        
+
 
 
 
@@ -334,7 +333,7 @@ h1 {
     padding-top: 55px;
     padding-bottom: 112px;
 }
-    
+
 
 .title-totam {
 
@@ -346,7 +345,7 @@ h1 {
         font-family: "Source-bold", sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        max-width: 570px; 
+        max-width: 570px;
         text-align: center;
     }
 }
@@ -382,7 +381,7 @@ h1 {
         font-family: "Poppins-bold", sans-serif;
         font-size: 24px;
         line-height: 1.5;
-        color: #333333;             
+        color: #333333;
     }
     p {
         font-family: "Poppins-bold", sans-serif;
@@ -436,17 +435,17 @@ h1 {
         font-family: "Source-bold", sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        max-width: 570px; 
+        max-width: 570px;
         text-align: center;
     }
-}   
+}
 .swiper-wrapper {
     display: flex;
     justify-content: space-between;
     padding-bottom: 110px;
     position: relative;
     margin-top: 48px;
-    
+
 }
 .swiper-slide {
     box-shadow:  16px 16px 48px 0 rgba(0, 0, 0, 0.0995);
@@ -461,8 +460,8 @@ h1 {
         width: 124px;
         height: 124px;
         border-radius: 50%;
-        object-fit: cover;  
-        position: relative;  
+        object-fit: cover;
+        position: relative;
         right: 35px;
     }
 }
@@ -536,7 +535,7 @@ h1 {
         font-family: "Source-bold", sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        max-width: 570px; 
+        max-width: 570px;
         opacity: 50%;
     }
     button {
@@ -648,14 +647,14 @@ h1 {
         &:hover {
             background-color: #DADADA;
         }
-        
+
     }
     [placeholder] {
         font-family: "Source-reg", sans-serif;
         color: #333333;
         opacity: 50%;
     }
-    
+
     button {
         font-family: "Source-bold", sans-serif;
         color: #FFFFFF;
@@ -678,8 +677,8 @@ h1 {
     left: 60px;
     picture {
         width: 100%;
-        height: 100%;  
-        position: relative      
+        height: 100%;
+        position: relative
     }
     &::before {
         content: " ";
@@ -687,11 +686,11 @@ h1 {
         width: 570px;
         height: 512px;
         right: 30px;
-        top: 32px; 
+        top: 32px;
         background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
         position: absolute;
         z-index: 0;
-        
+
     }
 }
 // Nisi aliq
@@ -747,7 +746,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
 .col-1 {
     h2 {
@@ -758,7 +757,7 @@ h1 {
         font-family: "Source-reg", sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        opacity: 50%; 
+        opacity: 50%;
         max-width: 470px;
         margin-top: 40px;
     }
@@ -787,7 +786,7 @@ h1 {
         &:hover {
             color: #C86DD7;
             opacity: 50%;
-        } 
+        }
     }
 }
 .tel {
@@ -801,7 +800,7 @@ h1 {
         &:hover {
             color: #C86DD7;
             opacity: 50%;
-        } 
+        }
     }
 }
 .mail {
@@ -811,7 +810,7 @@ h1 {
         font-size: 16px;
         line-height: 1.5;
         color: #333333;
-        opacity: 50%; 
+        opacity: 50%;
         &:hover {
             color: #C86DD7;
             opacity: 50%;
@@ -986,7 +985,7 @@ footer {
             border-bottom: 3px solid #fff;
             transform: rotate(224deg);
         }
-        
+
     }
 }
 .copyright {
@@ -1002,7 +1001,110 @@ footer {
 }
 
 
+.burger-btn {
+    display: none;
+    height: 20px;
+    width: 24px;
+    position: relative;
+}
 
-        
+.burger-line:after, .burger-line:before, .burger-line  {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.burger-line {
+    top: calc(50% - 2px)
+}
+
+.burger-line:before {
+    top: -10px;
+}
+
+.burger-line:after {
+    bottom: -10px;
+}
 
 
+.active {
+    display: flex;
+    width: 100vw;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    .asperio-picture {
+        left: 585px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .contents-varitatis {
+        grid-template-columns: repeat(auto-fit, 600px);
+    }
+    .totam-contents {
+        justify-content: center;
+    }
+    .section-poris {
+        justify-content: flex-end;
+    }
+    .content-nisi {
+        justify-content: center;
+    }
+    .asperio-picture {
+        left: 530px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+.wr-asperio .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+    .burger-btn {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        background-color:  #c96dd754;
+        top: 0;
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        overflow-y:  hidden;
+    }
+
+
+    .active .modal-wrapper {
+        background-color: rgba(0, 0, 0, 0.31);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .active .burger-btn:active .burger-line {
+        transform: rotate(45deg);
+    }
+
+
+}

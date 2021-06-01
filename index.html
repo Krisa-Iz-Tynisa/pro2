@@ -4,27 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
   <title>RELAP</title>
 </head>
 
 <body>
-  <div class="wr-preview">
+  <header class="wr-preview">
     <div class="container">
       <div class="wr-preview-img">
         <header>
           <div class="nav-wrapper">
             <a class="logo" href="#">RELAP</a>
+
+
             <nav class="nav">
+
               <li><a href="#">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">People</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li><a href="#fetures">Features</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#people">People</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+
             </nav>
+
+
+
             <input type="search" class="input-search" />
             <button class="search-button">
               <svg>
@@ -32,7 +39,15 @@
                   d="M17.7452 15.441L24 21.646L21.6271 24L15.3391 17.762C13.7625 18.833 11.8584 19.46 9.80806 19.46C4.40002 19.46 0 15.096 0 9.73C0 4.365 4.40002 0 9.80806 0C15.2171 0 19.6171 4.365 19.6171 9.73C19.6171 11.862 18.9216 13.836 17.7452 15.441ZM9.80906 2.853C5.98664 2.853 2.8769 5.938 2.8769 9.73C2.8769 13.522 5.98564 16.607 9.80906 16.607C13.6315 16.607 16.7412 13.522 16.7412 9.73C16.7412 5.938 13.6315 2.853 9.80906 2.853Z" />
               </svg>
             </button>
-            <span class="burger-line"></span>
+            <div class="burger-btn">
+              <span class="burger-line"></span>
+            </div>
+
+            <div class="modal-wrapper">
+
+            </div>
+
+
           </div>
         </header>
 
@@ -44,10 +59,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </header>
 
   <!-- Sapiente delectus -->
-  <div class="wr-sapiente">
+  <section id="fetures" class="wr-sapiente">
     <div class="container">
       <div class="section-title">
         <h2>Sapiente delectus</h2>
@@ -111,11 +126,11 @@
 
 
     </div>
-  </div>
+  </section>
 
 
   <!-- Reiciendis voluptatibus -->
-  <div class="wr-reicien">
+  <section id="works" class="wr-reicien">
     <div class="container">
       <div class="section-reicien">
 
@@ -153,10 +168,10 @@
 
     </div>
 
-  </div>
+  </section>
 
   <!-- Asperiores repellat -->
-  <div class="wr-asperio">
+  <section id="about" class="wr-asperio">
     <div class="container">
       <div class="asperio-content">
         <h2>Asperiores repellat</h2>
@@ -206,11 +221,11 @@
       </div>
     </div>
 
-  </div>
+  </section>
 
   <!-- Totam aperiam -->
 
-  <div class="wr-totam">
+  <section class="wr-totam">
     <div class="container">
       <div class="totam">
         <div class="title-totam">
@@ -252,10 +267,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Eaque ipsa -->
-  <div class="wr-eaque">
+  <section id="people" class="wr-eaque">
     <div class="container">
       <div class="title-euque">
         <h2>Eaque ipsa</h2>
@@ -316,9 +331,9 @@
       </div>
 
     </div>
-  </div>
+  </section>
   <!-- Veritatis -->
-  <div class="wr-varitatis">
+  <section id="news" class="wr-varitatis">
     <div class="container">
       <div class="title-varitatis">
         <h2>Veritatis</h2>
@@ -344,9 +359,9 @@
 
       </div>
     </div>
-  </div>
+  </section>
   <!-- Poris suscipit laboriosam -->
-  <div class="wr-poris">
+  <section class="wr-poris">
     <div class="container">
       <div class="section-poris">
         <div class="content-poris">
@@ -373,9 +388,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- Nisi aliquid -->
-  <div class="wr-nisi">
+  <section class="wr-nisi">
     <div class="container">
       <h2>Nisi aliquid</h2>
       <div class="content-nisi">
@@ -416,9 +431,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- Repudiandae -->
-  <div class="wr-repud">
+  <section id="contacts" class="wr-repud">
     <div class="container">
       <div class="cotainer-form">
         <div class="col-1">
@@ -452,17 +467,19 @@
           <form action="#" method="post">
             <h4>Alias consequatur</h4>
             <label for="name">Your name</label>
-            <input class="text" type="text" name="name" placeholder="Name">
+            <input class="text" type="text" name="name" placeholder="Name" id="name">
             <label for="email">Your email</label>
-            <input class="text" type="email" name="email" placeholder="Email">
+            <input class="text" type="email" name="email" placeholder="Email" id="email">
             <label for="text">Your message</label>
-            <textarea class="textarea" name="message" placeholder="Message"></textarea>
+            <textarea class="textarea" name="message" placeholder="Message" id="text"></textarea>
             <button>Send</button>
           </form>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Footer -->
 
   <footer>
     <div class="container">
@@ -484,17 +501,17 @@
       </div>
       <div class="foot">
         <h4>Omnis</h4>
-        
-          <form class="email-2" action="#" method="post">
-            <input class="text" type="email" name="email" placeholder="Your email">
-            <button>
-              <!-- <svg>
+
+        <form class="email-2" action="#" method="post">
+          <input class="text" type="email" name="email" placeholder="Your email">
+          <button>
+            <!-- <svg>
                 <path viewBox="0 0 10 16"
                   d="M1.88667 0L0 1.886L6.226 8.00267L0 14.114L1.88667 16L10 8.00267L1.88667 0Z" />
               </svg> -->
-            </button>
-          </form>
-        
+          </button>
+        </form>
+
       </div>
     </div>
     <p class="copyright">Copyright 2019. All Rights Reserved.</p>

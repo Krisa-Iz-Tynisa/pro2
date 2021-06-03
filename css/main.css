@@ -995,7 +995,7 @@ body {
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -1065,7 +1065,7 @@ body {
   width: 100vw;
 }
 
-.nav-wrapper {
+.nav-wrapper .container-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1077,7 +1077,8 @@ body {
   left: 0;
   z-index: 99999;
 }
-.nav-wrapper .logo {
+
+.logo {
   color: #fff;
   font-family: "Poppins-bold", sans-serif;
   font-weight: bold;
@@ -1085,7 +1086,7 @@ body {
   position: relative;
   left: 9%;
 }
-.nav-wrapper .logo:hover {
+.logo:hover {
   color: #333333;
 }
 
@@ -1170,8 +1171,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 30%;
-  max-width: 370px;
+  width: 370px;
+  height: 224px;
   padding-top: 40px;
   padding-bottom: 32px;
   padding-left: 24px;
@@ -1221,17 +1222,18 @@ h1 {
 .reicien-img picture {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   position: relative;
 }
 .reicien-img::before {
   content: " ";
   display: inline-block;
+  position: absolute;
   width: 570px;
   height: 512px;
   right: 30px;
   top: 32px;
   background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
-  position: absolute;
   z-index: 0;
 }
 
@@ -1294,12 +1296,17 @@ h1 {
 
 .wr-asperio {
   background-color: #fff;
-  padding-top: 103px;
+  padding-top: 23px;
+  padding-bottom: 96px;
+}
+.wr-asperio .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .asperio-content {
   max-width: 600px;
-  position: absolute;
 }
 .asperio-content p {
   margin-top: 28px;
@@ -1311,10 +1318,12 @@ h1 {
 
 .asperio-picture {
   width: 453px;
-  height: 786px;
-  position: relative;
-  left: 780px;
-  bottom: 80px;
+  height: 756px;
+}
+.asperio-picture img {
+  width: 453px;
+  height: 756px;
+  object-fit: cover;
 }
 
 .asperio-icons {
@@ -1573,7 +1582,7 @@ h1 {
 .contents-varitatis {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
+  grid-gap: 30px;
   margin-top: 65px;
 }
 
@@ -1701,6 +1710,7 @@ h1 {
   width: 100%;
   height: 100%;
   position: relative;
+  object-fit: cover;
 }
 .img-poris::before {
   content: " ";
@@ -2058,11 +2068,6 @@ footer .container {
   width: 100vw;
 }
 
-@media screen and (max-width: 1300px) {
-  .asperio-picture {
-    left: 585px;
-  }
-}
 @media screen and (max-width: 1200px) {
   .contents-varitatis {
     grid-template-columns: repeat(auto-fit, 600px);
@@ -2080,20 +2085,144 @@ footer .container {
     justify-content: center;
   }
 
-  .asperio-picture {
-    left: 530px;
+  .asperio-content {
+    padding-left: 15px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1010px) {
+  .section-reicien {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-reicien {
+    margin-top: 80px;
+    max-width: 650px;
+  }
+
   .wr-asperio .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+
+  .totam-contents {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .totam-content {
+    margin-top: 16px;
+  }
+
+  .swiper-button-prev {
+    left: 43%;
+    top: 468px;
+  }
+
+  .swiper-button-next {
+    right: 43%;
+    top: 468px;
+  }
+
+  .title-varitatis {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .title-varitatis button {
+    margin-top: 16px;
+  }
+
+  .wr-varitatis .container {
+    max-width: 350px;
+  }
+
+  .var-1 {
+    width: 345px;
+    height: 464px;
+  }
+
+  .var-2 {
+    width: 345px;
+    height: 464px;
+  }
+
+  .var-3 {
+    width: 345px;
+    height: 464px;
+  }
+
+  .section-poris {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .content-poris {
+    margin-top: 100px;
+  }
+
+  .wr-nisi h2 {
+    text-align: center;
+  }
+
+  .content-nisi {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nisi-item {
+    margin-top: 16px;
+  }
+
+  .cotainer-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 870px) {
+  .nav-wrapper .container-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 810px) {
   .burger-btn {
     display: block;
+    position: relative;
+    left: 25%;
+  }
+
+  .search-button {
+    position: relative;
+    left: 40%;
+  }
+
+  .wr-preview {
+    height: 768px;
+  }
+
+  .wr-preview-img {
+    background-image: url(../media/prev/phones.png);
+    position: absolute;
+    bottom: 100px;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position-x: top;
+    background-size: auto;
   }
 
   .nav {
@@ -2122,6 +2251,26 @@ footer .container {
 
   .active .burger-btn:active .burger-line {
     transform: rotate(45deg);
+  }
+
+  footer .container {
+    max-width: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .foot {
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .wr-reicien {
+    margin-right: 30px;
+  }
+
+  .wr-poris {
+    margin-right: 30px;
   }
 }
 

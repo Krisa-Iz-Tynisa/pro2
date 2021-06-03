@@ -18,7 +18,7 @@ new Swiper ('.swiper-container',{
                 hide: true,
             },
         },
-        1260: {
+        900: {
             
             spaceBetween: 30,
             slidesPerView: 2,

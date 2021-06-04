@@ -2564,10 +2564,7 @@ footer .container {
   }
 
   .totam-content {
-    max-width: 300px;
-  }
-  .totam-content button {
-    margin-left: -35px;
+    padding: 53px 57px 48px 67px;
   }
 
   .reicien-img {

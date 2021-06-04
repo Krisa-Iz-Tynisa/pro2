@@ -1231,6 +1231,7 @@ footer {
         right: 0;
         height: 100vh;
         overflow-y: hidden;
+        
         a {
             font-family: "Poppins-bold", sans-serif;
             color: #ffd000;
@@ -1241,15 +1242,6 @@ footer {
             }
         }
     }
-
-    .active .modal-wrapper {
-        background-color: rgba(0, 0, 0, 0.31);
-        position: absolute;
-        top: 0;
-        right: 0;
-        
-    }
-
     footer .container {
         max-width: 325px;
         display: flex;
@@ -1455,6 +1447,7 @@ footer {
     }
     .totam-content {
         max-width: 345px;
+        padding: 53px 88px 48px 88px;
     }
     .col-2 {
         max-width: 340px;
@@ -1508,7 +1501,6 @@ footer {
         max-width: 300px;
     }
     .totam-content {
-        
         padding: 53px 57px 48px 67px;
     }
     .reicien-img {

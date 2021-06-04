@@ -2285,13 +2285,6 @@ footer .container {
     color: #ffd00054;
   }
 
-  .active .modal-wrapper {
-    background-color: rgba(0, 0, 0, 0.31);
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
   footer .container {
     max-width: 325px;
     display: flex;
@@ -2503,6 +2496,7 @@ footer .container {
 
   .totam-content {
     max-width: 345px;
+    padding: 53px 88px 48px 88px;
   }
 
   .col-2 {

@@ -123,6 +123,7 @@ h1 {
 
     h2 {
         margin-bottom: 24px;
+        text-align: center;
     }
     p {
         font-family: "Source-bold", sans-serif;
@@ -147,7 +148,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 370px;
-    height: 224px;
+    height: 232px;
     padding-top: 40px;
     padding-bottom: 32px;
     padding-left: 24px;
@@ -282,7 +283,7 @@ h1 {
 .wr-asperio {
     background-color: #fff;
     padding-top: 23px;
-    padding-bottom: 96px;
+    padding-bottom: 196px;
     .container {
         display: flex;
         justify-content: space-between;
@@ -303,7 +304,7 @@ h1 {
 }
 .asperio-picture {
     max-width: 453px;
-    height: 756px;
+    height: 639px;
     img {
         width: 100%;
         object-fit: cover;
@@ -358,6 +359,9 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    h2 {
+        text-align: center;
+    }
     p {
         margin-top: 23px;
         font-family: "Source-bold", sans-serif;
@@ -1216,19 +1220,22 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         width: 100vw;
-        background-color:  #c96dd754;
+        background-color:  #360242a1;
         top: 0;
         position: absolute;
         right: 0;
         height: 100vh;
         overflow-y: hidden;
-        li {
-            border: #333333;
-        }
         a {
-            color: #333333;
-            font-size: 20px;
+            font-family: "Poppins-bold", sans-serif;
+            color: #ffd000;
+            font-size: 25px;
+            margin-left: 0;
+            &:hover {
+                color: #ffd00054;
+            }
         }
     }
 
@@ -1237,11 +1244,9 @@ footer {
         position: absolute;
         top: 0;
         right: 0;
+        
     }
 
-    .active .burger-btn:active .burger-line {
-        transform: rotate(45deg);
-    }
     footer .container {
         max-width: 325px;
         display: flex;
@@ -1423,6 +1428,9 @@ footer {
     .col-1 {
         padding-left: 6px;
     }
+    .sapiente-item {
+        height: 234px;
+    }
 
 
 }
@@ -1440,6 +1448,9 @@ footer {
     .container {
         max-width: 330px;
     }
+    .sapiente-item {
+        height: 230px;
+    }
     .wr-asperio {
         padding-bottom: 0;
     }
@@ -1449,13 +1460,13 @@ footer {
     .col-2 {
         max-width: 340px;
         .text {
-            width: 300px;
+            width: 278px;
         }
         .textarea {
-            width: 300px;
+            width: 278px;
         }
         button {
-            width: 300px;
+            width: 278px;
         }
     }
     .img-poris {
@@ -1473,5 +1484,103 @@ footer {
         right: 33%;
     }
 
+
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+       max-width: 320px;
+    }
+    .main-text h1 {
+        font-size: 40px;
+    }
+    .reicien-img picture {
+        max-width: 300px;
+    }
+    .content-reicien {
+        max-width: 290px;
+    }
+    .content-var {
+        max-width: 300px;
+    }
+    .totam-content {
+        max-width: 300px;
+        button {
+            margin-left: -35px;
+        }
+    }
+    .reicien-img {
+        max-width: 290px;
+        left: 0;
+        picture {
+            max-width: 290px;
+            img {
+                width: 100%;
+            }
+          
+        }
+        &::before{
+            content: " ";
+            display: inline-block;
+            position: absolute;
+            max-width: 290px;
+            max-height: 255px;
+            right: 10px;
+            top: 15px;
+            z-index: 0;
+        }
+    }
+    .img-poris {
+        max-width: 290px;
+        
+        picture {
+            max-width: 290px;
+            img {
+                width: 100%;
+            }
+          
+        }
+        &::before{
+            content: " ";
+            display: inline-block;
+            position: absolute;
+            max-width: 290px;
+            max-height: 245px;
+            right: 10px;
+            top: 25px;
+            z-index: 0;
+        }
+    }
+    .content-reicien {
+        margin-top: -140px;
+    }
+    .content-poris {
+        margin-top: -140px;
+    }
+    .col-2 {
+        max-width: 300px;
+        .text {
+            width: 230px;
+        }
+        .textarea {
+            width: 230px;
+        }
+        button {
+            width: 230px;
+        }
+    }
+    .wr-varitatis {
+        padding-left: 7px;
+    }
+    .wr-sapiente {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .sapiente-item {
+        height: 260px;
+    }
+    footer {
+        padding-left: 7px;
+    }
 
 }

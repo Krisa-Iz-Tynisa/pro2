@@ -2093,16 +2093,23 @@ footer .container {
     justify-content: center;
   }
 
-  .section-poris {
-    justify-content: flex-end;
-  }
-
   .content-nisi {
     justify-content: center;
   }
 
   .asperio-content {
     padding-left: 15px;
+  }
+}
+@media screen and (max-width: 1096px) {
+  .section-poris {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .content-poris {
+    margin-top: 100px;
   }
 }
 @media screen and (max-width: 1010px) {
@@ -2180,16 +2187,6 @@ footer .container {
   .var-3 {
     width: 345px;
     height: 464px;
-  }
-
-  .section-poris {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-  }
-
-  .content-poris {
-    margin-top: 100px;
   }
 
   .wr-nisi h2 {

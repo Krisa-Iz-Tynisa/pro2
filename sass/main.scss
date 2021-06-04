@@ -1188,15 +1188,18 @@ footer {
     .title-varitatis {
         padding-left: 10px;
     }
+    .search-button {
+        display: none;
+    }
     .burger-btn {
         display: block;
         position: relative;
-        left: 25%;
+        left: 36%;
     }
-    .search-button {
-        position: relative;
-        left: 40%;
-    }
+    // .search-button {
+    //     position: relative;
+    //     left: 40%;
+    // }
     .wr-preview {
         height: 768px;
     }
@@ -1346,14 +1349,14 @@ footer {
     h2 {
         font-size: 40px;
     }
-    .search-button {
-        position: relative;
-        left: 25%;
-    }
+    // .search-button {
+    //     position: relative;
+    //     left: 25%;
+    // }
     .burger-btn {
         display: block;
         position: relative;
-        left: 15%;
+        left: 32%;
     }
     .main-text {
         margin-left: 6px;
@@ -1486,6 +1489,11 @@ footer {
     // .wr-totam {
     //     padding-right: 7px;
     // }
+    .burger-btn {
+        display: block;
+        position: relative;
+        left: 25%;
+    }
 
 
 }

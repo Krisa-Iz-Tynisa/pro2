@@ -2230,15 +2230,14 @@ footer .container {
     padding-left: 10px;
   }
 
+  .search-button {
+    display: none;
+  }
+
   .burger-btn {
     display: block;
     position: relative;
-    left: 25%;
-  }
-
-  .search-button {
-    position: relative;
-    left: 40%;
+    left: 36%;
   }
 
   .wr-preview {
@@ -2392,15 +2391,10 @@ footer .container {
     font-size: 40px;
   }
 
-  .search-button {
-    position: relative;
-    left: 25%;
-  }
-
   .burger-btn {
     display: block;
     position: relative;
-    left: 15%;
+    left: 32%;
   }
 
   .main-text {
@@ -2540,6 +2534,12 @@ footer .container {
   .swiper-button-next {
     margin-top: 15px;
     right: 33%;
+  }
+
+  .burger-btn {
+    display: block;
+    position: relative;
+    left: 25%;
   }
 }
 @media screen and (max-width: 350px) {

@@ -37,7 +37,7 @@ body {
     right: 0;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: auto;
+    background-size: cover;
     height: calc(100vh + 40vh);
     width: 100vw;
 }
@@ -193,24 +193,31 @@ h1 {
     width: 570px;
     height: 512px;
     position: relative;
-    left: 60px;
+    object-fit: cover;
+    left: 20px;
 
     picture {
-        width: 100%;
+        max-width: 570px;
         height: 100%;
-        object-fit: cover;
         position: relative;
+        right: 0px;
+        object-fit: cover;
+        img {
+            object-fit: cover;
+            max-width: 570px;
+        }
     }
     &::before {
         content: " ";
         display: inline-block;
-        position: absolute;
         width: 570px;
         height: 512px;
         right: 30px;
         top: 32px;
         background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
+        position: absolute;
         z-index: 0;
+        object-fit: cover;
 
     }
 }
@@ -468,12 +475,13 @@ h1 {
         background-image: linear-gradient(#3023AE 0%, #C86DD7 100%);
     }
     picture {
-        width: 124px;
         height: 124px;
         border-radius: 50%;
         object-fit: cover;
-        position: relative;
-        right: 35px;
+        
+        img {
+            max-width: 100%;
+        }
     }
 }
 .slide-content {
@@ -1069,6 +1077,15 @@ footer {
 }
 
 @media screen and (max-width: 1010px) {
+    .wr-preview-img {
+        background-image: url(../media/prev/phones.png);
+        position: absolute;
+        bottom: 100px;
+        height: 742px;
+        background-repeat: no-repeat;
+        background-position-x: top;
+        background-size: cover;
+    }
     .section-reicien {
         display: flex;
         flex-direction: column-reverse;
@@ -1183,10 +1200,13 @@ footer {
         background-image: url(../media/prev/phones.png);
         position: absolute;
         bottom: 100px;
-        height: 768px;
+        height: 600px;
         background-repeat: no-repeat;
         background-position-x: top;
-        background-size: auto;
+        background-size: cover;
+    }
+    .main-text {
+        max-width: 460px;
     }
     .nav {
         display: none;
@@ -1202,7 +1222,14 @@ footer {
         position: absolute;
         right: 0;
         height: 100vh;
-        overflow-y:  hidden;
+        overflow-y: hidden;
+        li {
+            border: #333333;
+        }
+        a {
+            color: #333333;
+            font-size: 20px;
+        }
     }
 
     .active .modal-wrapper {
@@ -1302,8 +1329,15 @@ footer {
             width: 350px;
         }
     }
+    .swiper-button-prev {
+        left: 40%;
+    }
+    .swiper-button-next {
+        right: 40%;
+    }
 }
 @media screen and (max-width: 550px) {
+
     h2 {
         font-size: 40px;
     }
@@ -1394,6 +1428,15 @@ footer {
 }
 
 @media screen and (max-width: 440px) {
+    .wr-preview-img {
+        background-image: url(../media/prev/phones.png);
+        position: absolute;
+        bottom: 100px;
+        height: 450px;
+        background-repeat: no-repeat;
+        background-position-x: top;
+        background-size: cover;
+    }
     .container {
         max-width: 330px;
     }
@@ -1420,6 +1463,14 @@ footer {
     }
     .nisi-item {
         max-width: 300px;
+    }
+    .swiper-button-prev {
+        margin-top: 15px;
+        left: 33%;
+    }
+    .swiper-button-next {
+        margin-top: 15px;
+        right: 33%;
     }
 
 
